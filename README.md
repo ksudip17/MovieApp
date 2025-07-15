@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+Project Overview:
+Movie discovery app built with React Native and Expo
+Uses Expo Router for navigation
+Modern UI with Tailwind CSS for styling
+Integrates with The Movie Database (TMDB) API
+Key Features:
+Movie browsing and search
+Movie details view
+Trending movies section
+Bottom tab navigation
+Movie poster and information display
+Main Components:
+MovieCard
+: Displays movie posters and basic info
+SearchBar
+: Search functionality
+TrendingCard
+: Shows trending movies
+MovieDetails
+: Full movie information page
+Navigation Structure:
+Home screen with trending movies
+Search screen for movie search
+Profile section
+Saved movies section
+Movie details page
+Technical Stack:
+React Native with Expo
+Expo Router for navigation
+Tailwind CSS for styling
+Appwrite for backend services
+TMDB API for movie data
+TypeScript for type safety
+App Architecture:
+Uses Expo Router's file-based routing
+Components in components/ directory
+Services in services/ directory
+Interfaces in interfaces/ directory
+Styled with Tailwind CSS classes
+Backend Integration:
+Appwrite for data storage
+TMDB API for movie data
+Custom hooks for data fetching
+UI/UX Features:
+Dark theme design
+Smooth animations
+Responsive layouts
+Loading states
+Error handling
+Search debouncing
+The app provides a modern, user-friendly interface for discovering and exploring movies with features like trending movies, search functionality, and detailed movie information.
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
